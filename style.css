@@ -1,0 +1,18 @@
+.generation-area .row {
+  display: flex;
+  justify-content: center
+}
+
+.generation-area .cell {
+  width: 10px;
+  height: 10px;
+  border: 1px solid transparent;
+}
+
+.generation-area .cell.white {
+  background-color: white;
+}
+
+.generation-area .cell.black {
+  background-color: black;
+}
